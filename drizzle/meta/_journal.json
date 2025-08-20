@@ -15,6 +15,34 @@
       "when": 1755622332776,
       "tag": "0001_romantic_norman_osborn",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755636418692,
+      "tag": "0002_married_gravity",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755637313839,
+      "tag": "0003_great_scalphunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755640261539,
+      "tag": "0004_gifted_owl",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1755641194552,
+      "tag": "0005_young_nightmare",
+      "breakpoints": true
     }
   ]
 }
