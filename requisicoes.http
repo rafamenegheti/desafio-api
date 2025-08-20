@@ -1,18 +1,29 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4M2U2Y2RjMi05MTFkLTRiODYtODhlZi05ZjMzYjliZDJhZDQiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTcyMTY2NX0.x-BeGQY_MepteKs2wxg8wLT1wYGMFpI5v1PnlPxbVTs
 
 {
-    "title": "Novo curso 2"
+    "title": "Curso de Mongo 5"
 }
 
 ###
 
-GET http://localhost:3333/courses
-
+GET http://localhost:3333/courses?orderBy=title&page=1
 
 ###
 
 
-GET http://localhost:3333/courses/9b7a3b84-62f5-4a4b-9523-c5f888b8baf2
+GET http://localhost:3333/courses/6478cec0-b585-40cf-92b4-a68233eeaa95
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4M2U2Y2RjMi05MTFkLTRiODYtODhlZi05ZjMzYjliZDJhZDQiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTcyMDMzM30.YZ8XM9XZdPHlqrS1xMCQuD-_C_9d8A9ZtXbZO8cIsOY
 
+### 
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email": "Luiza.Macedo7@yahoo.com",
+    "password": "123456"
+    
+}
 
